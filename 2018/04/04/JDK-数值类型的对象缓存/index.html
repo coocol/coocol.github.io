@@ -86,7 +86,7 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="工作中，我碰见过几次直接使用 = 来比较 Integer、Long 类型变量的代码，这显然是不对的，因为 = 比较的是对象的引用。但有时候在这种错误下，编写代码的人还是跑通了他们的测试，这是为什么呢？ 1. 数值类型的缓存编写以下代码：12345public class Test &amp;#123;    public void foo() &amp;#123;        Integer i = 10;">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-04-04T07:30:09.381Z">
+<meta property="og:updated_time" content="2018-04-04T07:31:34.228Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="JDK--数值类型的对象缓存">
 <meta name="twitter:description" content="工作中，我碰见过几次直接使用 = 来比较 Integer、Long 类型变量的代码，这显然是不对的，因为 = 比较的是对象的引用。但有时候在这种错误下，编写代码的人还是跑通了他们的测试，这是为什么呢？ 1. 数值类型的缓存编写以下代码：12345public class Test &amp;#123;    public void foo() &amp;#123;        Integer i = 10;">
@@ -345,30 +345,30 @@
 <thead>
 <tr>
 <th></th>
-<th style="text-align:left">默认范围</th>
-<th style="text-align:right">可否自定义范围</th>
+<th>默认范围</th>
+<th>可否自定义范围</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Long</td>
-<td style="text-align:left">-128 ～ 127</td>
-<td style="text-align:right">不可以</td>
+<td>-128 ～ 127</td>
+<td>不可以</td>
 </tr>
 <tr>
 <td>Integer</td>
-<td style="text-align:left">-128 ～ 127</td>
-<td style="text-align:right">可以</td>
+<td>-128 ～ 127</td>
+<td>可以</td>
 </tr>
 <tr>
 <td>Short</td>
-<td style="text-align:left">-128 ～ 127</td>
-<td style="text-align:right">不可以</td>
+<td>-128 ～ 127</td>
+<td>不可以</td>
 </tr>
 <tr>
 <td>Byte</td>
-<td style="text-align:left">-128 ～ 127</td>
-<td style="text-align:right">不可以</td>
+<td>-128 ～ 127</td>
+<td>不可以</td>
 </tr>
 </tbody>
 </table>
